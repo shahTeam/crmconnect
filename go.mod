@@ -1,4 +1,4 @@
-module github.com/crmconnect
+module github.com/shahTeam/crmconnect
 
 go 1.18
 
