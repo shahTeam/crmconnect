@@ -30,7 +30,7 @@ func Email(email string) error {
 	}
 
 	EmailStatus := struct {
-		Status string `json:"status, omitempty"`
+		Status string `json:"status,omitempty"`
 	}{}
 
 	if err := json.Unmarshal(body, &EmailStatus); err != nil {
